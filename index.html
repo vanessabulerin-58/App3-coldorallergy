@@ -20,7 +20,7 @@ Brief Description of Goal of Code:
 To make a "diagnostic" app that allows for users to answer a series of questions with either yes or no - displaying and tracking their results to "diagnose" them with either allergies or a cold, while learning how to code using 3 different languages.
  
 Known Issues:
-blah, blah, blah, blah
+Dissapearance of counting "yes" or "no" for allergy or cold likelihood after adding results page and function. 
 
 https://www.w3schools.com/w3css/default.asp
 https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-file
@@ -48,7 +48,7 @@ https://stackoverflow.com/questions/8211128/multiple-distinct-pages-in-one-html-
             cold_count = cold_count + 1;
 		alert(cold_count); 
         };  
-	function getResults (){ 
+	function getResults(){ 
 		var resultText = document.getElementById("results")
 		var allergyPercent = (allergy_count / 6) *100; //this variable calculates the allergy percent by using the total allergy count divided by the number of questions multiplied by 100
 		var coldPercent = (cold_count / 6) *100; //this varibable claculates the cold percent by using the total cold count divided by the number of questions multiplied by 100 
